@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(backk.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.list{
+    margin: 50px;
+}
+.navbar h1{
+    margin: 50px;
+    background-color: white;
+    padding: 25px;
+    font-family: tahoma;
+}
+.list ul{
+    list-style: none;
+    text-align: center;     
+}
+.list ul li{
+    display: inline;
+    justify-content: space-around;
+    
+   
+
+}
+.list ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: poppins;
+    color: black;
+    transition: all 0.3s;
+    
+}
+.list ul li a:hover{
+    color: #f3f3f3;
+    background-color: black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.contant {
+    text-align: center;
+    margin-top: 100px;   
+}
+.contant h1{
+    font-size: 60px;
+    font-family: poppins;
+    transition: all 0.3s;
+}
+.contant h1:hover{
+    color: white;
+    box-shadow: 2px;
+    padding-bottom: 10px;
+    font-size: 70px;
+}
+.contant p{
+    font-family: tahoma;
+}
+.btn{
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+    background-color: transparent;
+    border-color: #f3f3f3;
+    transition: all 0.3s;
+    font-family: poppins;
+}
+.btn:hover{
+    background-color: #3c3c3c;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    font-family: poppins;
+}
+.icons{
+    margin: 50px;
+    text-align: center;
+}
+.icons a {
+    margin: 10px;
+    color: white;   
+}
